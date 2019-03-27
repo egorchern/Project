@@ -34,5 +34,13 @@ namespace WindowsFormsApp1
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 r1 = new Form2();
+            r1.Show();
+            this.Hide();
+
+        }
     }
 }
